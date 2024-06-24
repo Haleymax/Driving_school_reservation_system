@@ -1,0 +1,3 @@
+E:/learn/Driving_school_reservation_system/cmake-build-debug/CMakeFiles/Driving_school_reservation_system.dir
+E:/learn/Driving_school_reservation_system/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/learn/Driving_school_reservation_system/cmake-build-debug/CMakeFiles/rebuild_cache.dir
