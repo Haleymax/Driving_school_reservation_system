@@ -18,8 +18,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="创建学生类">
-      <change afterPath="$PROJECT_DIR$/headers/coach.h" afterDir="false" />
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="创建教练类">
+      <change afterPath="$PROJECT_DIR$/headers/manager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/coach.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +70,36 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="C/C++ File.manager.cpp">
+    <configuration name="coach.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Driving_school_reservation_system" TARGET_NAME="coach.cpp" CONFIG_NAME="coach.cpp">
+      <option name="sourceFile" value="serve\coach.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Driving_school_reservation_system" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
       <option name="sourceFile" value="main.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="manager.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Driving_school_reservation_system" TARGET_NAME="manager.cpp" CONFIG_NAME="manager.cpp">
+      <option name="sourceFile" value="serve\manager.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="student.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Driving_school_reservation_system" TARGET_NAME="student.cpp" CONFIG_NAME="student.cpp">
+      <option name="sourceFile" value="serve\student.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.manager.cpp" />
+        <item itemvalue="C/C++ File.student.cpp" />
+        <item itemvalue="C/C++ File.coach.cpp" />
         <item itemvalue="C/C++ File.main.cpp" />
       </list>
     </recent_temporary>
@@ -89,7 +115,7 @@
       <workItem from="1719239407471" duration="1006000" />
       <workItem from="1719242194162" duration="493000" />
       <workItem from="1719242700656" duration="847000" />
-      <workItem from="1719325925536" duration="319000" />
+      <workItem from="1719325925536" duration="1114000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -147,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719326140707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="创建教练类">
+      <option name="closed" value="true" />
+      <created>1719326512103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719326512103</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +194,7 @@
     <MESSAGE value="抽象身份类" />
     <MESSAGE value="完成学生类" />
     <MESSAGE value="创建学生类" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建学生类" />
+    <MESSAGE value="创建教练类" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建教练类" />
   </component>
 </project>
