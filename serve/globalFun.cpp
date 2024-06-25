@@ -5,6 +5,7 @@
 #pragma once
 #include "../headers/globalFile.h"
 #include "../headers/Identity.h"
+#include "../headers/student.h"
 #include "fstream"
 #include "string"
 
@@ -46,7 +47,21 @@ void LoginIn(string fileName , int type){
 
     if (type == 1)
     {
-        //学生登陆验证
+        //学员登陆验证
+        int fId;
+        string fName;
+        string fPwd;
+        while (ifs >> fId && ifs >> fName && ifs >> fPwd){
+            if (id == fId && name == fName && pwd == fPwd){
+                cout << "学员验证登陆成功!" << endl;
+                system("pause");
+                system("cls");
+                person = new Student(id , name , pwd);
+
+                return;
+            }
+        }
+
     }else if (type == 2)
     {
         //教练登录验证
