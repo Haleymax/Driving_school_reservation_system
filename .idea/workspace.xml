@@ -18,9 +18,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="完成学生类">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serve/student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/student.cpp" afterDir="false" />
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="创建学生类">
+      <change afterPath="$PROJECT_DIR$/headers/coach.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +89,7 @@
       <workItem from="1719239407471" duration="1006000" />
       <workItem from="1719242194162" duration="493000" />
       <workItem from="1719242700656" duration="847000" />
+      <workItem from="1719325925536" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -139,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719242610297</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="创建学生类">
+      <option name="closed" value="true" />
+      <created>1719326140707</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719326140707</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +159,7 @@
     <MESSAGE value="忽略文件" />
     <MESSAGE value="抽象身份类" />
     <MESSAGE value="完成学生类" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成学生类" />
+    <MESSAGE value="创建学生类" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建学生类" />
   </component>
 </project>
