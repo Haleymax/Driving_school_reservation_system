@@ -6,3 +6,5 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(Driving_school_reservation_system main.cpp)
 
 add_executable(student serve/student.cpp)
+add_executable(manager serve/manager.cpp)
+add_executable(coach serve/coach.cpp)
