@@ -18,18 +18,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="管理员类的声明与实习">
-      <change afterPath="$PROJECT_DIR$/headers/globalFile.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/admin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/car.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/coach.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/globalFun.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/order.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/student.txt" afterDir="false" />
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="主函数以及配置文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serve/globalFun.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/globalFun.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serve/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serve/student.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +120,7 @@
       <workItem from="1719242194162" duration="493000" />
       <workItem from="1719242700656" duration="847000" />
       <workItem from="1719325925536" duration="3105000" />
-      <workItem from="1719329079857" duration="265000" />
+      <workItem from="1719329079857" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -241,7 +234,39 @@
       <option name="project" value="LOCAL" />
       <updated>1719327376999</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="存储信息的文件">
+      <option name="closed" value="true" />
+      <created>1719329466846</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719329466846</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Makefile文件">
+      <option name="closed" value="true" />
+      <created>1719329477769</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719329477769</updated>
+    </task>
+    <task id="LOCAL-00017" summary="全局文件和全局函数">
+      <option name="closed" value="true" />
+      <created>1719329495382</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719329495382</updated>
+    </task>
+    <task id="LOCAL-00018" summary="主函数以及配置文件">
+      <option name="closed" value="true" />
+      <created>1719329509963</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719329509963</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,9 +282,12 @@
     <MESSAGE value="教练类的实现" />
     <MESSAGE value="管理员类的声明与实现" />
     <MESSAGE value="学员类的实现" />
-    <MESSAGE value="Makefile文件" />
     <MESSAGE value="配置文件" />
     <MESSAGE value="管理员类的声明与实习" />
-    <option name="LAST_COMMIT_MESSAGE" value="管理员类的声明与实习" />
+    <MESSAGE value="存储信息的文件" />
+    <MESSAGE value="Makefile文件" />
+    <MESSAGE value="全局文件和全局函数" />
+    <MESSAGE value="主函数以及配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="主函数以及配置文件" />
   </component>
 </project>
