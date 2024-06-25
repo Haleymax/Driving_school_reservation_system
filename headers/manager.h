@@ -9,6 +9,7 @@
 
 #pragma once
 #include "iostream"
+#include "string"
 #include "Identity.h"
 
 using namespace std;
