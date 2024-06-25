@@ -18,12 +18,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="创建教练类">
-      <change afterPath="$PROJECT_DIR$/headers/manager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/coach.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serve/manager.cpp" afterDir="false" />
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="管理员类的声明与实习">
+      <change afterPath="$PROJECT_DIR$/headers/globalFile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/admin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/car.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/coach.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/globalFun.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/order.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serve/student.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +61,6 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -70,9 +74,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="C/C++ File.manager.cpp">
+  <component name="RunManager" selected="C/C++ File.main.cpp">
     <configuration name="coach.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Driving_school_reservation_system" TARGET_NAME="coach.cpp" CONFIG_NAME="coach.cpp">
       <option name="sourceFile" value="serve\coach.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="globalFun.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Driving_school_reservation_system" TARGET_NAME="globalFun.cpp" CONFIG_NAME="globalFun.cpp">
+      <option name="sourceFile" value="serve\globalFun.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,10 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.main.cpp" />
+        <item itemvalue="C/C++ File.globalFun.cpp" />
         <item itemvalue="C/C++ File.manager.cpp" />
         <item itemvalue="C/C++ File.student.cpp" />
         <item itemvalue="C/C++ File.coach.cpp" />
-        <item itemvalue="C/C++ File.main.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +126,8 @@
       <workItem from="1719239407471" duration="1006000" />
       <workItem from="1719242194162" duration="493000" />
       <workItem from="1719242700656" duration="847000" />
-      <workItem from="1719325925536" duration="1114000" />
+      <workItem from="1719325925536" duration="3105000" />
+      <workItem from="1719329079857" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -181,7 +193,55 @@
       <option name="project" value="LOCAL" />
       <updated>1719326512103</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="教练类的实现">
+      <option name="closed" value="true" />
+      <created>1719327155092</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719327155092</updated>
+    </task>
+    <task id="LOCAL-00010" summary="管理员类的声明与实现">
+      <option name="closed" value="true" />
+      <created>1719327171430</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719327171430</updated>
+    </task>
+    <task id="LOCAL-00011" summary="学员类的实现">
+      <option name="closed" value="true" />
+      <created>1719327181980</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719327181980</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Makefile文件">
+      <option name="closed" value="true" />
+      <created>1719327193160</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719327193160</updated>
+    </task>
+    <task id="LOCAL-00013" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1719327202975</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719327202975</updated>
+    </task>
+    <task id="LOCAL-00014" summary="管理员类的声明与实习">
+      <option name="closed" value="true" />
+      <created>1719327376999</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719327376999</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,12 +249,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="this is first commit" />
-    <MESSAGE value="配置文件" />
     <MESSAGE value="忽略文件" />
     <MESSAGE value="抽象身份类" />
     <MESSAGE value="完成学生类" />
     <MESSAGE value="创建学生类" />
     <MESSAGE value="创建教练类" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建教练类" />
+    <MESSAGE value="教练类的实现" />
+    <MESSAGE value="管理员类的声明与实现" />
+    <MESSAGE value="学员类的实现" />
+    <MESSAGE value="Makefile文件" />
+    <MESSAGE value="配置文件" />
+    <MESSAGE value="管理员类的声明与实习" />
+    <option name="LAST_COMMIT_MESSAGE" value="管理员类的声明与实习" />
   </component>
 </project>

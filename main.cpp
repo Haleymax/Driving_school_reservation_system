@@ -1,4 +1,5 @@
 #include <iostream>
+#include "serve/globalFun.cpp"
 
 using namespace std;
 
@@ -26,10 +27,13 @@ int main() {
         cin >> select;   //用户选择
         switch (select) {
             case 1:            //学生身份
+                LoginIn(STUDENT_FILE , 1);
                 break;
-            case 2:            //老师身份
+            case 2:            //教练身份
+                LoginIn(COACH_FILE , 2);
                 break;
             case 3:            //管理员身份
+                LoginIn(ADMIN_FILE , 3);
                 break;
             case 0:            //退出系统
                 cout << "欢迎再次使用" << endl;
@@ -47,3 +51,5 @@ int main() {
     return 0;
 
 }
+
+
