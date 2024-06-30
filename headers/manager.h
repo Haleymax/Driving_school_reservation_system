@@ -11,6 +11,9 @@
 #include "iostream"
 #include "string"
 #include "Identity.h"
+#include "vector"
+#include "student.h"
+#include "coach.h"
 
 using namespace std;
 
@@ -37,4 +40,13 @@ public:
 
     //清空预约记录
     void clearFile();
+
+    //初始化容器
+    void initVector();
+
+    //学生容器
+    vector<Student> vStu;
+
+    //教练容器
+    vector<Coach> vCoa;
 };
