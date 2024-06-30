@@ -74,6 +74,7 @@ void Manager::addPerson(){
     system("cls");
 
     ofs.close();
+
 }
 
 //╡И©╢ук╨е
