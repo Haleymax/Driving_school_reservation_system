@@ -11,7 +11,8 @@ Manager::Manager(){
 
 //有参构造(管理员姓名 ， 密码)
 Manager::Manager(string name , string pwd){
-
+    this->m_Name = name;
+    this->m_Pwd = pwd;
 }
 
 //选择菜单
