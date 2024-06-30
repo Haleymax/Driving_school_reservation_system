@@ -3,53 +3,90 @@
 //
 
 #include "../headers/manager.h"
+#include "../headers/globalFile.h"
+#include "fstream"
 
-//é»˜è®¤æ„é€ 
+//Ä¬ÈÏ¹¹Ôì
 Manager::Manager(){
 
 }
 
-//æœ‰å‚æ„é€ (ç®¡ç†å‘˜å§“å ï¼Œ å¯†ç )
+//ÓĞ²Î¹¹Ôì(¹ÜÀíÔ±ĞÕÃû £¬ ÃÜÂë)
 Manager::Manager(string name , string pwd){
     this->m_Name = name;
     this->m_Pwd = pwd;
 }
 
-//é€‰æ‹©èœå•
+//Ñ¡Ôñ²Ëµ¥
 void Manager::operMenu(){
-    cout << "æ¬¢è¿ç®¡ç†å‘˜ï¼š"<<this->m_Name << "ç™»å½•ï¼" << endl;
+    cout << "»¶Ó­¹ÜÀíÔ±£º"<<this->m_Name << "µÇÂ¼£¡" << endl;
     cout << "\t\t ---------------------------------\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          1.æ·»åŠ è´¦å·              |\n";
+    cout << "\t\t|          1.Ìí¼ÓÕËºÅ              |\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          2.æŸ¥çœ‹è´¦å·              |\n";
+    cout << "\t\t|          2.²é¿´ÕËºÅ              |\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          3.æŸ¥çœ‹è½¦è¾†              |\n";
+    cout << "\t\t|          3.²é¿´³µÁ¾              |\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          4.æ¸…ç©ºé¢„çº¦              |\n";
+    cout << "\t\t|          4.Çå¿ÕÔ¤Ô¼              |\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          0.æ³¨é”€ç™»å½•              |\n";
+    cout << "\t\t|          0.×¢ÏúµÇÂ¼              |\n";
     cout << "\t\t|                                 |\n";
     cout << "\t\t ---------------------------------\n";
-    cout << "è¯·é€‰æ‹©æ‚¨çš„æ“ä½œï¼š " << endl;
+    cout << "ÇëÑ¡ÔñÄúµÄ²Ù×÷£º " << endl;
 }
 
-//æ·»åŠ è´¦å·
+//Ìí¼ÓÕËºÅ
 void Manager::addPerson(){
+    cout << "ÇëÊäÈëÌí¼ÓÕËºÅµÄÀàĞÍ" << endl;
+    cout << "1¡¢Ìí¼ÓÑ§Éú" << endl;
+    cout << "2¡¢Ìí¼ÓÀÏÊ¦" << endl;
 
+    string fileName;
+    string tip;
+    ofstream ofs;
+
+    int select = 0;
+    cin >> select;
+
+    if (select == 1){
+        fileName = STUDENT_FILE;
+        tip = "ÇëÊäÈëÑ§ºÅ : ";
+    } else{
+        fileName = COACH_FILE;
+        tip = "ÇëÊäÈëÖ°¹¤±àºÅ";
+    }
+
+    ofs.open(fileName , ios::out | ios::app);  //ÒÔ×·¼ÓµÄĞÎÊ½
+    int id;
+    string name;
+    string pwd;
+    cout << "ÇëÊäÈëĞÕÃû : " << endl;
+    cin >> name;
+
+    cout << "ÇëÊäÈëÃÜÂë : " << endl;
+    cin >> pwd;
+
+    ofs << id << " " << name << " " << pwd << " " << endl;
+    cout << "Ìí¼Ó³É¹¦£¡" << endl;
+
+    system("pause");
+    system("cls");
+
+    ofs.close();
 }
 
-//æŸ¥çœ‹è´¦å·
+//²é¿´ÕËºÅ
 void Manager::showPerson(){
 
 }
 
-//æŸ¥çœ‹è½¦è¾†ä¿¡æ¯
+//²é¿´³µÁ¾ĞÅÏ¢
 void Manager::showCar(){
 
 }
 
-//æ¸…ç©ºé¢„çº¦è®°å½•
+//Çå¿ÕÔ¤Ô¼¼ÇÂ¼
 void Manager::clearFile(){
 
 }
