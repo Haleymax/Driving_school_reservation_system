@@ -18,7 +18,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="实现登录模块" />
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
+      <change beforePath="$PROJECT_DIR$/serve/globalFun.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/globalFun.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +126,7 @@
       <workItem from="1719414028052" duration="724000" />
       <workItem from="1719583740970" duration="196000" />
       <workItem from="1719584959867" duration="13000" />
-      <workItem from="1719754427397" duration="907000" />
+      <workItem from="1719754427397" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -310,7 +312,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719755331351</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="实现管理员有参构造">
+      <option name="closed" value="true" />
+      <created>1719755516700</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719755516700</updated>
+    </task>
+    <task id="LOCAL-00025" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1719755524909</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719755524909</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +344,6 @@
     <MESSAGE value="教练类的实现" />
     <MESSAGE value="管理员类的声明与实现" />
     <MESSAGE value="学员类的实现" />
-    <MESSAGE value="配置文件" />
     <MESSAGE value="管理员类的声明与实习" />
     <MESSAGE value="存储信息的文件" />
     <MESSAGE value="Makefile文件" />
@@ -336,6 +353,8 @@
     <MESSAGE value="全局函数" />
     <MESSAGE value="可执行文件和配置文件" />
     <MESSAGE value="实现登录模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现登录模块" />
+    <MESSAGE value="实现管理员有参构造" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
 </project>
