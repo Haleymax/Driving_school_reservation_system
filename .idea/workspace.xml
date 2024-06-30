@@ -18,10 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="可执行文件和配置文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serve/globalFun.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/globalFun.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="实现登录模块" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +124,7 @@
       <workItem from="1719414028052" duration="724000" />
       <workItem from="1719583740970" duration="196000" />
       <workItem from="1719584959867" duration="13000" />
-      <workItem from="1719754427397" duration="610000" />
+      <workItem from="1719754427397" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -305,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719330517536</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="实现登录模块">
+      <option name="closed" value="true" />
+      <created>1719755331351</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719755331351</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +335,7 @@
     <MESSAGE value="存储文件" />
     <MESSAGE value="全局函数" />
     <MESSAGE value="可执行文件和配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="可执行文件和配置文件" />
+    <MESSAGE value="实现登录模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现登录模块" />
   </component>
 </project>
