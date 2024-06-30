@@ -18,11 +18,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="主函数以及配置文件">
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="可执行文件和配置文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serve/globalFun.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/globalFun.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serve/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/serve/student.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +65,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\learn\Driving_school_reservation_system" />
+    </key>
+  </component>
   <component name="RunManager" selected="C/C++ File.main.cpp">
     <configuration name="coach.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Driving_school_reservation_system" TARGET_NAME="coach.cpp" CONFIG_NAME="coach.cpp">
       <option name="sourceFile" value="serve\coach.cpp" />
@@ -120,7 +123,11 @@
       <workItem from="1719242194162" duration="493000" />
       <workItem from="1719242700656" duration="847000" />
       <workItem from="1719325925536" duration="3105000" />
-      <workItem from="1719329079857" duration="1070000" />
+      <workItem from="1719329079857" duration="1899000" />
+      <workItem from="1719414028052" duration="724000" />
+      <workItem from="1719583740970" duration="196000" />
+      <workItem from="1719584959867" duration="13000" />
+      <workItem from="1719754427397" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -266,7 +273,39 @@
       <option name="project" value="LOCAL" />
       <updated>1719329509963</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="存储文件">
+      <option name="closed" value="true" />
+      <created>1719330396499</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719330396499</updated>
+    </task>
+    <task id="LOCAL-00020" summary="全局函数">
+      <option name="closed" value="true" />
+      <created>1719330405325</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719330405325</updated>
+    </task>
+    <task id="LOCAL-00021" summary="可执行文件和配置文件">
+      <option name="closed" value="true" />
+      <created>1719330420141</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719330420141</updated>
+    </task>
+    <task id="LOCAL-00022" summary="可执行文件和配置文件">
+      <option name="closed" value="true" />
+      <created>1719330517536</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719330517536</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +327,9 @@
     <MESSAGE value="Makefile文件" />
     <MESSAGE value="全局文件和全局函数" />
     <MESSAGE value="主函数以及配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="主函数以及配置文件" />
+    <MESSAGE value="存储文件" />
+    <MESSAGE value="全局函数" />
+    <MESSAGE value="可执行文件和配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="可执行文件和配置文件" />
   </component>
 </project>

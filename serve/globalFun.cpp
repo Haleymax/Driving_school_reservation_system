@@ -5,7 +5,9 @@
 #pragma once
 #include "../headers/globalFile.h"
 #include "../headers/Identity.h"
-#include "../headers/student.h"
+#include "student.cpp"
+#include "coach.cpp"
+#include "manager.cpp"
 #include "fstream"
 #include "string"
 
@@ -65,9 +67,36 @@ void LoginIn(string fileName , int type){
     }else if (type == 2)
     {
         //教练登录验证
+        int fId;
+        string fName;
+        string fPwd;
+        while(ifs >> fId && ifs >> fName && ifs >> fPwd){
+            if (id == fId && name == fName && pwd == fPwd){
+                cout << "教练验证登陆成功！" << endl;
+                system("pause");
+                system("cls");
+                person = new Coach(id , name , pwd);
+                return;
+            }
+        }
+
+
     } else if (type == 3)
     {
         //管理员登录验证
+        string fName;
+        string fPwd;
+        while (ifs >> fName && ifs >> fPwd){
+            if (name == fName && pwd == fPwd){
+                cout << "管理员验证登陆成功！" << endl;
+                system("pause");
+                system("cls");
+
+                person = new Manager(name , pwd);
+
+                return;
+            }
+        }
     }
 
     cout << "登陆失败！" << endl;
