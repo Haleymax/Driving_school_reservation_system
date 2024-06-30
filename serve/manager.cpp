@@ -39,7 +39,7 @@ void Manager::operMenu(){
 //添加账号
 void Manager::addPerson(){
     cout << "请输入添加账号的类型" << endl;
-    cout << "1、添加学生" << endl;
+    cout << "1、添加教练" << endl;
     cout << "2、添加老师" << endl;
 
     string fileName;
