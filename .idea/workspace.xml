@@ -18,12 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serve/globalFun.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/globalFun.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serve/manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/manager.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="添加账号" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +124,7 @@
       <workItem from="1719414028052" duration="724000" />
       <workItem from="1719583740970" duration="196000" />
       <workItem from="1719584959867" duration="13000" />
-      <workItem from="1719754427397" duration="2384000" />
+      <workItem from="1719754427397" duration="2774000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -363,7 +358,39 @@
       <option name="project" value="LOCAL" />
       <updated>1719756197749</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1719757028810</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719757028810</updated>
+    </task>
+    <task id="LOCAL-00031" summary="修正管理员菜单">
+      <option name="closed" value="true" />
+      <created>1719757052126</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1719757052126</updated>
+    </task>
+    <task id="LOCAL-00032" summary="添加头文件读取文件名称">
+      <option name="closed" value="true" />
+      <created>1719757073569</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719757073569</updated>
+    </task>
+    <task id="LOCAL-00033" summary="添加账号">
+      <option name="closed" value="true" />
+      <created>1719757093275</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1719757093275</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,6 +419,9 @@
     <MESSAGE value="实现管理员菜单展示" />
     <MESSAGE value="显示管理员菜单" />
     <MESSAGE value="配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
+    <MESSAGE value="修正管理员菜单" />
+    <MESSAGE value="添加头文件读取文件名称" />
+    <MESSAGE value="添加账号" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加账号" />
   </component>
 </project>
