@@ -18,7 +18,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="添加账号" />
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.txt" beforeDir="false" afterPath="$PROJECT_DIR$/admin.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/coach.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/coach.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/manager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serve/manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serve/student.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +131,8 @@
       <workItem from="1719414028052" duration="724000" />
       <workItem from="1719583740970" duration="196000" />
       <workItem from="1719584959867" duration="13000" />
-      <workItem from="1719754427397" duration="2774000" />
+      <workItem from="1719754427397" duration="3777000" />
+      <workItem from="1719842850125" duration="1754000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -390,14 +398,37 @@
       <option name="project" value="LOCAL" />
       <updated>1719757093275</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="添加账号">
+      <option name="closed" value="true" />
+      <created>1719757394216</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1719757394216</updated>
+    </task>
+    <task id="LOCAL-00035" summary="添加教练和学员容器">
+      <option name="closed" value="true" />
+      <created>1719757490638</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1719757490638</updated>
+    </task>
+    <task id="LOCAL-00036" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1719757500384</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1719757500384</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="this is first commit" />
     <MESSAGE value="忽略文件" />
     <MESSAGE value="抽象身份类" />
     <MESSAGE value="完成学生类" />
@@ -418,10 +449,11 @@
     <MESSAGE value="实现管理员有参构造" />
     <MESSAGE value="实现管理员菜单展示" />
     <MESSAGE value="显示管理员菜单" />
-    <MESSAGE value="配置文件" />
     <MESSAGE value="修正管理员菜单" />
     <MESSAGE value="添加头文件读取文件名称" />
     <MESSAGE value="添加账号" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加账号" />
+    <MESSAGE value="添加教练和学员容器" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
 </project>
