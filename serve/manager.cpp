@@ -15,6 +15,9 @@ Manager::Manager(){
 Manager::Manager(string name , string pwd){
     this->m_Name = name;
     this->m_Pwd = pwd;
+
+    //初始化容器
+    this->initVector();
 }
 
 //选择菜单
@@ -89,5 +92,37 @@ void Manager::showCar(){
 
 //清空预约记录
 void Manager::clearFile(){
+
+}
+
+//初始化容器
+void Manager::initVector() {
+    //读取学生文件中信息
+    ifstream ifs;
+    ifs.open(STUDENT_FILE , ios::in);
+    if (!ifs.is_open()){
+        cout << "文件读取失败" << endl;
+        return;
+    }
+
+    this->vStu.clear();
+    this->vCoa.clear();
+
+    Student s;
+    while (ifs >> s.m_Id && ifs >> s.m_Name && ifs >> s.m_Pwd)
+        vStu.push_back(s);
+
+    cout << "当前学生数量为 : " << vStu.size() << endl;
+    ifs.close();     //学生初始化完成
+
+    //读取老师文件信息
+    ifs.open(COACH_FILE , ios::in);
+
+    Coach c;
+    while (ifs >> c.m_EmpId && ifs >> c.m_Name && ifs >> c.m_Pwd)
+        vCoa.push_back(c);
+    cout << "当前教练数为 : " << vCoa.size() << endl;
+
+    ifs.close();
 
 }

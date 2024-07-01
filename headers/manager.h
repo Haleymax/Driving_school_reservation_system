@@ -14,6 +14,7 @@
 #include "vector"
 #include "student.h"
 #include "coach.h"
+#include "globalFile.h"
 
 using namespace std;
 
