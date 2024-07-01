@@ -31,4 +31,6 @@ public:
     void validOrder();
 
 
+    int m_EmpId;    //教练编号
+
 };
