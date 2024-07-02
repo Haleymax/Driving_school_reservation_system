@@ -51,19 +51,34 @@ void Manager::addPerson(){
 
     int select = 0;
     cin >> select;
+    string errorTip;   //重复错误提示
 
     if (select == 1){
         fileName = STUDENT_FILE;
         tip = "请输入学号 : ";
+        errorTip = "学号重复，请重新输入";
     } else{
         fileName = COACH_FILE;
         tip = "请输入职工编号";
+        errorTip = "职工编号重复，请重新输入";
     }
 
     ofs.open(fileName , ios::out | ios::app);  //以追加的形式
     int id;
     string name;
     string pwd;
+    cout << tip << endl;
+    while (true){
+        cin >> id;
+        bool ret = this->checkRepeat(id , select);
+
+        if (ret){
+            cout << errorTip << endl;
+        } else{
+            break;
+        }
+    }
+
     cout << "请输入姓名 : " << endl;
     cin >> name;
 
@@ -78,6 +93,8 @@ void Manager::addPerson(){
 
     ofs.close();
 
+    //每一次添加完账号之后都要初始化容器，不然新添加的账号无法查重
+    this->initVector();
 }
 
 //查看账号
@@ -124,5 +141,19 @@ void Manager::initVector() {
     cout << "当前教练数为 : " << vCoa.size() << endl;
 
     ifs.close();
+}
 
+bool Manager::checkRepeat(int id, int type) {
+    if (type == 1){
+        for (vector<Student>::iterator it = vStu.begin() ; it != vStu.end() ; it++) {
+            if (id == it->m_Id)
+                return true;    //表示这个账号已经存在
+        }
+    } else{
+        for (vector<Coach>::iterator it = vCoa.begin() ; it != vCoa.end() ; it++ ) {
+            if (id == it->m_EmpId)
+                return true;   //表示这个教练的职工号已经存在了
+        }
+    }
+    return false;
 }

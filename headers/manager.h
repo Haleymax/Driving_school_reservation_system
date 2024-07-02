@@ -42,7 +42,8 @@ public:
     //清空预约记录
     void clearFile();
 
-
+    //检测重复 参数:(传入id ， 传入类型) 返回值 : (true 代表有重复 ， flase代表没有重复)
+    bool checkRepeat(int id , int type);
 
     //初始化容器
     void initVector();
