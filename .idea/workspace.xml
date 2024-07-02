@@ -18,7 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="完善代码">
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headers/manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/manager.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serve/manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/manager.cpp" afterDir="false" />
@@ -130,7 +130,7 @@
       <workItem from="1719584959867" duration="13000" />
       <workItem from="1719754427397" duration="3777000" />
       <workItem from="1719842850125" duration="2620000" />
-      <workItem from="1719930911472" duration="2062000" />
+      <workItem from="1719930911472" duration="3721000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -492,14 +492,29 @@
       <option name="project" value="LOCAL" />
       <updated>1719931609376</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="实现添加账号查重">
+      <option name="closed" value="true" />
+      <created>1719933121496</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1719933121496</updated>
+    </task>
+    <task id="LOCAL-00047" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1719933130522</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1719933130522</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="教练类的实现" />
     <MESSAGE value="学员类的实现" />
     <MESSAGE value="管理员类的声明与实习" />
     <MESSAGE value="存储信息的文件" />
@@ -519,22 +534,12 @@
     <MESSAGE value="更新存储文件" />
     <MESSAGE value="教练类的声明" />
     <MESSAGE value="管理员类的声明与实现" />
-    <MESSAGE value="配置文件" />
     <MESSAGE value="添加账号" />
     <MESSAGE value="完善添加账号" />
     <MESSAGE value="添加方法" />
     <MESSAGE value="完善代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善代码" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/serve/globalFun.cpp</url>
-          <line>78</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="实现添加账号查重" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
 </project>
