@@ -19,9 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/manager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serve/manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/manager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headers/drivingRange .h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +128,7 @@
       <workItem from="1719584959867" duration="13000" />
       <workItem from="1719754427397" duration="3777000" />
       <workItem from="1719842850125" duration="2620000" />
-      <workItem from="1719930911472" duration="3721000" />
+      <workItem from="1719930911472" duration="4114000" />
     </task>
     <task id="LOCAL-00001" summary="this is first commit">
       <option name="closed" value="true" />
@@ -508,14 +506,29 @@
       <option name="project" value="LOCAL" />
       <updated>1719933130522</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="查看账号信息">
+      <option name="closed" value="true" />
+      <created>1719935189316</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1719935189316</updated>
+    </task>
+    <task id="LOCAL-00049" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1719935199772</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1719935199772</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="学员类的实现" />
     <MESSAGE value="管理员类的声明与实习" />
     <MESSAGE value="存储信息的文件" />
     <MESSAGE value="Makefile文件" />
@@ -539,6 +552,7 @@
     <MESSAGE value="添加方法" />
     <MESSAGE value="完善代码" />
     <MESSAGE value="实现添加账号查重" />
+    <MESSAGE value="查看账号信息" />
     <MESSAGE value="配置文件" />
     <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
