@@ -99,6 +99,27 @@ void Manager::addPerson(){
 
 //查看账号
 void Manager::showPerson(){
+    cout << "请选择查看内容 : " << endl;
+    cout << "1、查看所有学生" << endl;
+    cout << "2、查看所有老师" << endl;
+
+    int select = 0;
+
+    cin >> select;
+    if (select == 1){
+        cout << "所有学生信息如下: " << endl;
+        for_each(vStu.begin() , vStu.end() , [](const Student& s){
+            cout << "学号：" << s.m_Name << " 姓名：" << s.m_Name << " 密码：" << s.m_Pwd << endl;
+        });
+    } else{
+        cout << "所有教练信息如下: " << endl;
+        for_each(vCoa.begin() , vCoa.end() , [](const Coach &c){
+            cout << "职工号：" << c.m_EmpId << " 姓名：" << c.m_Name <<" 密码：" << c.m_Pwd << endl;
+        });
+    }
+
+    system("pause");
+    system("cls");
 
 }
 

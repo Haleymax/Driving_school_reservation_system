@@ -15,6 +15,7 @@
 #include "student.h"
 #include "coach.h"
 #include "globalFile.h"
+#include "algorithm"
 
 using namespace std;
 
