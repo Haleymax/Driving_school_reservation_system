@@ -72,13 +72,12 @@ void LoginIn(string fileName , int type){
         cin >> id;
     }
 
-    /*cout << "请输入用户名 : " << endl;
+    cout << "请输入用户名 : " << endl;
     cin >> name;
 
     cout << "请输入密码 : " << endl;
-    cin >> pwd;*/
-    name = "admin";
-    pwd = "123";
+    cin >> pwd;
+
 
     if (type == 1)
     {
