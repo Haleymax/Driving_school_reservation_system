@@ -49,7 +49,7 @@ void LoginIn(string fileName , int type){
     Identity *person = nullptr;
 
     ifstream ifs;  //文件操作对象
-    ifs.open("student.txt" , ios::in);  //以只读的形式打开文件
+    ifs.open(fileName , ios::in);  //以只读的形式打开文件
 
     //文件不存在
     if(!ifs.is_open()){
@@ -72,11 +72,13 @@ void LoginIn(string fileName , int type){
         cin >> id;
     }
 
-    cout << "请输入用户名 : " << endl;
+    /*cout << "请输入用户名 : " << endl;
     cin >> name;
 
     cout << "请输入密码 : " << endl;
-    cin >> pwd;
+    cin >> pwd;*/
+    name = "admin";
+    pwd = "123";
 
     if (type == 1)
     {
