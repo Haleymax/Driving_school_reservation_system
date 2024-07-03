@@ -18,11 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/manager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serve/manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/manager.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="查看车辆信息" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,31 +127,7 @@
       <workItem from="1719754427397" duration="3777000" />
       <workItem from="1719842850125" duration="2620000" />
       <workItem from="1719930911472" duration="4483000" />
-      <workItem from="1720017263102" duration="544000" />
-    </task>
-    <task id="LOCAL-00004" summary="抽象身份类">
-      <option name="closed" value="true" />
-      <created>1719240838932</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1719240838932</updated>
-    </task>
-    <task id="LOCAL-00005" summary="抽象身份类">
-      <option name="closed" value="true" />
-      <created>1719242056994</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1719242056994</updated>
-    </task>
-    <task id="LOCAL-00006" summary="完成学生类">
-      <option name="closed" value="true" />
-      <created>1719242610297</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1719242610297</updated>
+      <workItem from="1720017263102" duration="876000" />
     </task>
     <task id="LOCAL-00007" summary="创建学生类">
       <option name="closed" value="true" />
@@ -525,15 +497,37 @@
       <option name="project" value="LOCAL" />
       <updated>1720017294487</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="初始化场地信息">
+      <option name="closed" value="true" />
+      <created>1720017842698</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1720017842698</updated>
+    </task>
+    <task id="LOCAL-00054" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1720017852641</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1720017852641</updated>
+    </task>
+    <task id="LOCAL-00055" summary="查看车辆信息">
+      <option name="closed" value="true" />
+      <created>1720018119415</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1720018119415</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="存储信息的文件" />
-    <MESSAGE value="Makefile文件" />
     <MESSAGE value="全局文件和全局函数" />
     <MESSAGE value="主函数以及配置文件" />
     <MESSAGE value="存储文件" />
@@ -556,7 +550,9 @@
     <MESSAGE value="实现添加账号查重" />
     <MESSAGE value="查看账号信息" />
     <MESSAGE value="声明练车场类" />
+    <MESSAGE value="初始化场地信息" />
     <MESSAGE value="配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
+    <MESSAGE value="查看车辆信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="查看车辆信息" />
   </component>
 </project>
