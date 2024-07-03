@@ -19,7 +19,21 @@ Student::Student(int id , string name , string pwd) {
 
 //菜单界面
 void Student::operMenu() {
-
+    cout << "欢迎学员：" << this->m_Name << "登录！" << endl;
+    cout << "\t\t ----------------------------------\n";
+    cout << "\t\t|                                 |\n";
+    cout << "\t\t|          1.申请预约              |\n";
+    cout << "\t\t|                                 |\n";
+    cout << "\t\t|          2.查看我的预约          |\n";
+    cout << "\t\t|                                 |\n";
+    cout << "\t\t|          3.查看所有预约          |\n";
+    cout << "\t\t|                                 |\n";
+    cout << "\t\t|          4.取消预约              |\n";
+    cout << "\t\t|                                 |\n";
+    cout << "\t\t|          0.注销登录              |\n";
+    cout << "\t\t|                                 |\n";
+    cout << "\t\t ----------------------------------\n";
+    cout << "请选择您的操作： " << endl;
 }
 
 //申请预约
