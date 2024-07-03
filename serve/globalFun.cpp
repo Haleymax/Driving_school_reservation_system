@@ -51,7 +51,7 @@ void studentMenu(Identity * &student){
         student->operMenu();
 
         Student *stu = (Student*)student;
-        int select = 0;
+        int select;
 
         cin>> select;
 
@@ -125,6 +125,8 @@ void LoginIn(string fileName , int type){
                 system("cls");
                 person = new Student(id , name , pwd);
 
+                //进入学员菜单
+                studentMenu(person);
                 return;
             }
         }
