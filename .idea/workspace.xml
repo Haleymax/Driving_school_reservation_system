@@ -18,12 +18,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="完成学生登录展示">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/drivingRange .h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/drivingRange.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/manager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/student.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/student.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serve/student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/student.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,31 +130,7 @@
       <workItem from="1719754427397" duration="3777000" />
       <workItem from="1719842850125" duration="2620000" />
       <workItem from="1719930911472" duration="4483000" />
-      <workItem from="1720017263102" duration="2628000" />
-    </task>
-    <task id="LOCAL-00014" summary="管理员类的声明与实习">
-      <option name="closed" value="true" />
-      <created>1719327376999</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1719327376999</updated>
-    </task>
-    <task id="LOCAL-00015" summary="存储信息的文件">
-      <option name="closed" value="true" />
-      <created>1719329466846</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1719329466846</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Makefile文件">
-      <option name="closed" value="true" />
-      <created>1719329477769</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1719329477769</updated>
+      <workItem from="1720017263102" duration="3713000" />
     </task>
     <task id="LOCAL-00017" summary="全局文件和全局函数">
       <option name="closed" value="true" />
@@ -528,15 +500,37 @@
       <option name="project" value="LOCAL" />
       <updated>1720019402625</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="获取机房信息">
+      <option name="closed" value="true" />
+      <created>1720020034089</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1720020034089</updated>
+    </task>
+    <task id="LOCAL-00064" summary="修改文件bug">
+      <option name="closed" value="true" />
+      <created>1720020044686</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1720020044686</updated>
+    </task>
+    <task id="LOCAL-00065" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1720020055242</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1720020055242</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="可执行文件和配置文件" />
-    <MESSAGE value="实现登录模块" />
     <MESSAGE value="实现管理员有参构造" />
     <MESSAGE value="实现管理员菜单展示" />
     <MESSAGE value="显示管理员菜单" />
@@ -558,19 +552,10 @@
     <MESSAGE value="清空预约" />
     <MESSAGE value="完成学生类的有参构造" />
     <MESSAGE value="展示学生菜单" />
-    <MESSAGE value="配置文件" />
     <MESSAGE value="完成学生登录展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成学生登录展示" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/serve/student.cpp</url>
-          <line>26</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="获取机房信息" />
+    <MESSAGE value="修改文件bug" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
 </project>
