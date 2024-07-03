@@ -18,9 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
-      <change afterPath="$PROJECT_DIR$/headers/drivingRange .h" afterDir="false" />
-    </list>
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,23 +126,7 @@
       <workItem from="1719584959867" duration="13000" />
       <workItem from="1719754427397" duration="3777000" />
       <workItem from="1719842850125" duration="2620000" />
-      <workItem from="1719930911472" duration="4114000" />
-    </task>
-    <task id="LOCAL-00001" summary="this is first commit">
-      <option name="closed" value="true" />
-      <created>1719239453246</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1719239453246</updated>
-    </task>
-    <task id="LOCAL-00002" summary="配置文件">
-      <option name="closed" value="true" />
-      <created>1719239648543</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1719239648543</updated>
+      <workItem from="1719930911472" duration="4483000" />
     </task>
     <task id="LOCAL-00003" summary="忽略文件">
       <option name="closed" value="true" />
@@ -522,14 +504,29 @@
       <option name="project" value="LOCAL" />
       <updated>1719935199772</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="声明练车场类">
+      <option name="closed" value="true" />
+      <created>1719935463832</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1719935463833</updated>
+    </task>
+    <task id="LOCAL-00051" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1719935471672</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1719935471672</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="管理员类的声明与实习" />
     <MESSAGE value="存储信息的文件" />
     <MESSAGE value="Makefile文件" />
     <MESSAGE value="全局文件和全局函数" />
@@ -553,6 +550,7 @@
     <MESSAGE value="完善代码" />
     <MESSAGE value="实现添加账号查重" />
     <MESSAGE value="查看账号信息" />
+    <MESSAGE value="声明练车场类" />
     <MESSAGE value="配置文件" />
     <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
