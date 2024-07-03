@@ -136,7 +136,12 @@ void Manager::showPerson(){
 
 //查看车辆信息
 void Manager::showCar(){
-
+    cout << "场地信息如下：" << endl;
+    for (vector<DrivingRange>::iterator it = vRange.begin() ; it != vRange.end() ; it++){
+        cout << "场地编号：" << it->m_RangeId << " 场地最大车辆容量：" << it->m_MaxNum << endl;
+    }
+    system("pause");
+    system("cls");
 }
 
 //清空预约记录
