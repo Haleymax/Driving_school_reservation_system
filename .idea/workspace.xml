@@ -18,7 +18,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="查看车辆信息" />
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="完成学生类的有参构造">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serve/globalFun.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/globalFun.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,31 +130,7 @@
       <workItem from="1719754427397" duration="3777000" />
       <workItem from="1719842850125" duration="2620000" />
       <workItem from="1719930911472" duration="4483000" />
-      <workItem from="1720017263102" duration="876000" />
-    </task>
-    <task id="LOCAL-00007" summary="创建学生类">
-      <option name="closed" value="true" />
-      <created>1719326140707</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1719326140707</updated>
-    </task>
-    <task id="LOCAL-00008" summary="创建教练类">
-      <option name="closed" value="true" />
-      <created>1719326512103</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1719326512103</updated>
-    </task>
-    <task id="LOCAL-00009" summary="教练类的实现">
-      <option name="closed" value="true" />
-      <created>1719327155092</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1719327155092</updated>
+      <workItem from="1720017263102" duration="1492000" />
     </task>
     <task id="LOCAL-00010" summary="管理员类的声明与实现">
       <option name="closed" value="true" />
@@ -521,15 +500,37 @@
       <option name="project" value="LOCAL" />
       <updated>1720018119415</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="清空预约">
+      <option name="closed" value="true" />
+      <created>1720018253574</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1720018253574</updated>
+    </task>
+    <task id="LOCAL-00057" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1720018263033</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1720018263033</updated>
+    </task>
+    <task id="LOCAL-00058" summary="完成学生类的有参构造">
+      <option name="closed" value="true" />
+      <created>1720018445093</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1720018445093</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="全局文件和全局函数" />
-    <MESSAGE value="主函数以及配置文件" />
     <MESSAGE value="存储文件" />
     <MESSAGE value="全局函数" />
     <MESSAGE value="可执行文件和配置文件" />
@@ -551,8 +552,10 @@
     <MESSAGE value="查看账号信息" />
     <MESSAGE value="声明练车场类" />
     <MESSAGE value="初始化场地信息" />
-    <MESSAGE value="配置文件" />
     <MESSAGE value="查看车辆信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="查看车辆信息" />
+    <MESSAGE value="清空预约" />
+    <MESSAGE value="配置文件" />
+    <MESSAGE value="完成学生类的有参构造" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成学生类的有参构造" />
   </component>
 </project>
