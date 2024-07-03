@@ -16,7 +16,7 @@
 #include "coach.h"
 #include "globalFile.h"
 #include "algorithm"
-#include "drivingRange .h"
+#include "drivingRange.h"
 
 using namespace std;
 

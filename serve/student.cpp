@@ -4,54 +4,65 @@
 
 #include "../headers/student.h"
 
-//é»˜è®¤æ„é€ 
+//Ä¬ÈÏ¹¹Ôì
 Student::Student() {
 
 }
 
-//æœ‰å‚æ„é€ (å­¦å·ã€å§“åã€å¯†ç )
+//ÓĞ²Î¹¹Ôì(Ñ§ºÅ¡¢ĞÕÃû¡¢ÃÜÂë)
 Student::Student(int id , string name , string pwd) {
-    //åˆå§‹åŒ–å±æ€§
+    //³õÊ¼»¯ÊôĞÔ
     this->m_Id = id;
     this->m_Name = name;
     this->m_Pwd = pwd;
+
+    //»ñÈ¡³¡µØĞÅÏ¢
+    ifstream ifs;
+    ifs.open(CAR_FILE , ios::in);
+
+    DrivingRange d;
+    while (ifs >> d.m_RangeId && ifs >> d.m_MaxNum){
+        vDri.push_back(d);
+    }
+    ifs.close();
+
 }
 
-//èœå•ç•Œé¢
+//²Ëµ¥½çÃæ
 void Student::operMenu() {
-    cout << "æ¬¢è¿å­¦å‘˜ï¼š" << this->m_Name << "ç™»å½•ï¼" << endl;
+    cout << "»¶Ó­Ñ§Ô±£º" << this->m_Name << "µÇÂ¼£¡" << endl;
     cout << "\t\t ----------------------------------\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          1.ç”³è¯·é¢„çº¦              |\n";
+    cout << "\t\t|          1.ÉêÇëÔ¤Ô¼              |\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          2.æŸ¥çœ‹æˆ‘çš„é¢„çº¦          |\n";
+    cout << "\t\t|          2.²é¿´ÎÒµÄÔ¤Ô¼          |\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          3.æŸ¥çœ‹æ‰€æœ‰é¢„çº¦          |\n";
+    cout << "\t\t|          3.²é¿´ËùÓĞÔ¤Ô¼          |\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          4.å–æ¶ˆé¢„çº¦              |\n";
+    cout << "\t\t|          4.È¡ÏûÔ¤Ô¼              |\n";
     cout << "\t\t|                                 |\n";
-    cout << "\t\t|          0.æ³¨é”€ç™»å½•              |\n";
+    cout << "\t\t|          0.×¢ÏúµÇÂ¼              |\n";
     cout << "\t\t|                                 |\n";
     cout << "\t\t ----------------------------------\n";
-    cout << "è¯·é€‰æ‹©æ‚¨çš„æ“ä½œï¼š " << endl;
+    cout << "ÇëÑ¡ÔñÄúµÄ²Ù×÷£º " << endl;
 }
 
-//ç”³è¯·é¢„çº¦
+//ÉêÇëÔ¤Ô¼
 void Student::applyOrder() {
 
 }
 
-//æŸ¥çœ‹æˆ‘çš„é¢„çº¦
+//²é¿´ÎÒµÄÔ¤Ô¼
 void Student::showMyOrder() {
 
 }
 
-//å–æ¶ˆé¢„çº¦
+//È¡ÏûÔ¤Ô¼
 void Student::cancelOrder() {
 
 }
 
-//æ˜¾ç¤ºæ‰€æœ‰è®¢å•
+//ÏÔÊ¾ËùÓĞ¶©µ¥
 void Student::showAllOrder() {
 
 }

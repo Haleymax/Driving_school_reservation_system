@@ -10,6 +10,10 @@
 #pragma once
 #include "iostream"
 #include "Identity.h"
+#include "vector"
+#include "drivingRange.h"
+#include "fstream"
+#include "globalFile.h"
 
 using namespace std;
 
@@ -39,4 +43,7 @@ public:
 
     //学生学号
     int m_Id;
+
+    //机房容器
+    vector<DrivingRange> vDri;
 };
