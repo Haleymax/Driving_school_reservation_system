@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/main.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/serve/globalFun.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/serve/manager.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/serve/student.cpp" charset="GBK" />
   </component>
 </project>
