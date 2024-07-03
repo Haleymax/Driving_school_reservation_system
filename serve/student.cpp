@@ -11,7 +11,10 @@ Student::Student() {
 
 //有参构造(学号、姓名、密码)
 Student::Student(int id , string name , string pwd) {
-
+    //初始化属性
+    this->m_Id = id;
+    this->m_Name = name;
+    this->m_Pwd = pwd;
 }
 
 //菜单界面
