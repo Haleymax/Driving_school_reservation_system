@@ -18,6 +18,17 @@ Manager::Manager(string name , string pwd){
 
     //初始化容器
     this->initVector();
+
+    //获取机房信息
+    ifstream ifs;
+    ifs.open(CAR_FILE , ios::in);
+
+    DrivingRange d;
+    while (ifs >> d.m_RangeId && ifs >> d.m_MaxNum){
+        vRange.push_back(d);
+    }
+    cout << "当前机房数量为 : " << vRange.size() << endl;
+    ifs.close();
 }
 
 //选择菜单

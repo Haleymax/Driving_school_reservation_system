@@ -16,6 +16,7 @@
 #include "coach.h"
 #include "globalFile.h"
 #include "algorithm"
+#include "drivingRange .h"
 
 using namespace std;
 
@@ -54,4 +55,7 @@ public:
 
     //教练容器
     vector<Coach> vCoa;
+
+    //场地容器
+    vector<DrivingRange> vRange;
 };
