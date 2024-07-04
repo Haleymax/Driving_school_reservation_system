@@ -18,7 +18,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件" />
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="打卡">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,22 +130,7 @@
       <workItem from="1719842850125" duration="2620000" />
       <workItem from="1719930911472" duration="4483000" />
       <workItem from="1720017263102" duration="4053000" />
-    </task>
-    <task id="LOCAL-00019" summary="存储文件">
-      <option name="closed" value="true" />
-      <created>1719330396499</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1719330396499</updated>
-    </task>
-    <task id="LOCAL-00020" summary="全局函数">
-      <option name="closed" value="true" />
-      <created>1719330405325</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1719330405325</updated>
+      <workItem from="1720105692443" duration="1231000" />
     </task>
     <task id="LOCAL-00021" summary="可执行文件和配置文件">
       <option name="closed" value="true" />
@@ -521,14 +508,29 @@
       <option name="project" value="LOCAL" />
       <updated>1720021292410</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1720105702750</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105702751</updated>
+    </task>
+    <task id="LOCAL-00069" summary="打卡">
+      <option name="closed" value="true" />
+      <created>1720105716424</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105716424</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现管理员菜单展示" />
     <MESSAGE value="显示管理员菜单" />
     <MESSAGE value="修正管理员菜单" />
     <MESSAGE value="添加头文件读取文件名称" />
@@ -553,6 +555,7 @@
     <MESSAGE value="修改文件bug" />
     <MESSAGE value="预约功能的实现" />
     <MESSAGE value="配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
+    <MESSAGE value="打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡" />
   </component>
 </project>
