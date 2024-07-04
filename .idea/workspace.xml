@@ -128,39 +128,7 @@
       <workItem from="1719842850125" duration="2620000" />
       <workItem from="1719930911472" duration="4483000" />
       <workItem from="1720017263102" duration="4053000" />
-      <workItem from="1720105692443" duration="1559000" />
-    </task>
-    <task id="LOCAL-00023" summary="实现登录模块">
-      <option name="closed" value="true" />
-      <created>1719755331351</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1719755331351</updated>
-    </task>
-    <task id="LOCAL-00024" summary="实现管理员有参构造">
-      <option name="closed" value="true" />
-      <created>1719755516700</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1719755516700</updated>
-    </task>
-    <task id="LOCAL-00025" summary="配置文件">
-      <option name="closed" value="true" />
-      <created>1719755524909</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1719755524909</updated>
-    </task>
-    <task id="LOCAL-00026" summary="实现管理员菜单展示">
-      <option name="closed" value="true" />
-      <created>1719756024844</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1719756024844</updated>
+      <workItem from="1720105692443" duration="1923000" />
     </task>
     <task id="LOCAL-00027" summary="配置文件">
       <option name="closed" value="true" />
@@ -522,16 +490,45 @@
       <option name="project" value="LOCAL" />
       <updated>1720107935202</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="编译文件">
+      <option name="closed" value="true" />
+      <created>1720108223174</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1720108223174</updated>
+    </task>
+    <task id="LOCAL-00073" summary="订单类的实现">
+      <option name="closed" value="true" />
+      <created>1720108235418</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1720108235418</updated>
+    </task>
+    <task id="LOCAL-00074" summary="预订类的声明">
+      <option name="closed" value="true" />
+      <created>1720108248442</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1720108248442</updated>
+    </task>
+    <task id="LOCAL-00075" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1720108256724</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1720108256724</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修正管理员菜单" />
-    <MESSAGE value="添加头文件读取文件名称" />
-    <MESSAGE value="添加教练和学员容器" />
     <MESSAGE value="更新存储文件" />
     <MESSAGE value="教练类的声明" />
     <MESSAGE value="管理员类的声明与实现" />
@@ -553,6 +550,9 @@
     <MESSAGE value="预约功能的实现" />
     <MESSAGE value="打卡" />
     <MESSAGE value="预约类" />
+    <MESSAGE value="编译文件" />
+    <MESSAGE value="订单类的实现" />
+    <MESSAGE value="预订类的声明" />
     <MESSAGE value="配置文件" />
     <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
