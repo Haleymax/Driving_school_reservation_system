@@ -17,5 +17,23 @@ OrderFile::OrderFile() {
     string status;      //预约状态
 
     this->m_Size = 0;   //预约记录个数
-    while (ifs >> date && ifs >> interval && ifs >> stuId && ifs >> stuName && ifs >> rangId && ifs >> status)
+    while (ifs >> date && ifs >> interval && ifs >> stuId && ifs >> stuName && ifs >> rangId && ifs >> status){
+        string key;
+        string value;
+        map<string , string > m;
+        int pos = date.find(":");
+
+        if (pos != -1){
+            key = date.substr(0,pos);
+            value = date.substr(pos + 1 , date.size() - pos - 1);
+            m.insert(make_pair(key , value));
+        }
+
+        pos = interval.find(":");
+        if (pos != -1){
+            key = interval.substr(0 , pos);
+            value = interval.substr(pos + 1 , interval.size() - pos -1);
+            m.insert(make_pair(key , value));
+        }
+    }
 }
