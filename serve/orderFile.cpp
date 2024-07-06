@@ -70,3 +70,20 @@ OrderFile::OrderFile() {
 
     ifs.close();
 }
+
+//更新预约
+void OrderFile::updateOrder() {
+    if (this->m_Size == 0)
+        return;
+    ofstream ofs(ORDER_FILE , ios::out | ios::trunc);   //清除
+    for (int i = 0; i < m_Size; ++i) {
+        ofs << "data:"<<this->m_orderData[i]["data"] << " ";
+        ofs << "interval:" << this->m_orderData[i]["interval"] << " ";
+        ofs << "stuId:" << this->m_orderData[i]["stuId"] << " ";
+        ofs << "stuName:" << this->m_orderData[i]["stuName"] << " ";
+        ofs << "rangId:" << this->m_orderData[i]["rangId"] << " ";
+        ofs << "status:" << this->m_orderData[i]["status"] << " ";
+    }
+
+    ofs.close();
+}
