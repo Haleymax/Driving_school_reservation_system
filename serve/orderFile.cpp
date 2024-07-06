@@ -35,5 +35,38 @@ OrderFile::OrderFile() {
             value = interval.substr(pos + 1 , interval.size() - pos -1);
             m.insert(make_pair(key , value));
         }
+
+        pos = stuId.find(":");
+        if (pos != -1){
+            key = stuId.substr(0 , pos);
+            value = stuId.substr(pos + 1 , stuId.size() - pos - 1);
+            m.insert(make_pair(key , value));
+        }
+
+        pos = stuName.find(":");
+        if (pos != -1){
+            key = stuName.substr(0 , pos);
+            value = stuName.substr(pos + 1 , stuName.size() - pos - 1);
+            m.insert(make_pair(key , value));
+        }
+
+        pos = rangId.find(":");
+        if (pos != -1){
+            key = rangId.substr(0 , pos);
+            value = rangId.substr(pos + 1 , rangId.size() - pos -1);
+            m.insert(make_pair(key , value));
+        }
+
+        pos = status.find(":");
+        if (pos != -1){
+            key = status.substr( 0 , pos);
+            value = status.substr(pos + 1 , status.size() - pos - 1);
+            m.insert(make_pair(key , value));
+        }
+
+        this->m_orderData.insert(make_pair(this->m_Size , m));
+        this->m_Size++;
     }
+
+    ifs.close();
 }
