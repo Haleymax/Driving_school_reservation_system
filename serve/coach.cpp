@@ -11,7 +11,10 @@ Coach::Coach() {
 
 //有参构造
 Coach::Coach(int empId , string name , string pwd) {
-
+    //初始化属性
+    this->m_EmpId = empId;
+    this->m_Name = name;
+    this->m_Pwd = pwd;
 }
 
 //菜单界面
