@@ -24,6 +24,9 @@ public:
     //菜单界面
     virtual void operMenu();
 
+    //教练菜单
+    void CoachMenu(Identity * &coach)
+
     //查看所有预约
     void showAllorder();
 

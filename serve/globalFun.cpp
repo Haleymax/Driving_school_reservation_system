@@ -174,3 +174,26 @@ void LoginIn(string fileName , int type){
     return;
 }
 
+//教练菜单
+void CoachMenu(Identity * &coach){
+    while (true){
+        //教练菜单
+        coach->operMenu();
+        Coach *coa = (Coach *)coach;    //将父类强转为派生类向下转换
+        int select = 0;
+        cin >> select;
+        if (select == 1){
+            //查看所有预约
+            coa->showAllorder();
+        } else if (select == 2){
+            //审核预约
+            coa->validOrder();
+        } else{
+            delete coa;
+            cout << "注销成功" << endl;
+            system("pause");
+            system("cls");
+            return;
+        }
+    }
+}
