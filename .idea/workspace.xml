@@ -18,9 +18,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="完成教练类的有参构造">
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headers/coach.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/coach.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serve/coach.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/coach.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serve/globalFun.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/globalFun.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,23 +136,7 @@
       <workItem from="1720105692443" duration="2104000" />
       <workItem from="1720192793512" duration="1404000" />
       <workItem from="1720257378186" duration="7387000" />
-      <workItem from="1720445073978" duration="345000" />
-    </task>
-    <task id="LOCAL-00043" summary="完善添加账号">
-      <option name="closed" value="true" />
-      <created>1719931568972</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1719931568972</updated>
-    </task>
-    <task id="LOCAL-00044" summary="添加方法">
-      <option name="closed" value="true" />
-      <created>1719931582689</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1719931582689</updated>
+      <workItem from="1720445073978" duration="1210000" />
     </task>
     <task id="LOCAL-00045" summary="完善代码">
       <option name="closed" value="true" />
@@ -529,14 +514,29 @@
       <option name="project" value="LOCAL" />
       <updated>1720329723775</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="完成教练菜单">
+      <option name="closed" value="true" />
+      <created>1720445571567</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1720445571567</updated>
+    </task>
+    <task id="LOCAL-00093" summary="配置文件">
+      <option name="closed" value="true" />
+      <created>1720445589419</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1720445589419</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="查看账号信息" />
     <MESSAGE value="声明练车场类" />
     <MESSAGE value="初始化场地信息" />
     <MESSAGE value="查看车辆信息" />
@@ -559,8 +559,9 @@
     <MESSAGE value="实现查看我的预约" />
     <MESSAGE value="查看所有预约" />
     <MESSAGE value="取消预约" />
-    <MESSAGE value="配置文件" />
     <MESSAGE value="完成教练类的有参构造" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成教练类的有参构造" />
+    <MESSAGE value="完成教练菜单" />
+    <MESSAGE value="配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
   </component>
 </project>
