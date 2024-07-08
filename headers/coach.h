@@ -25,15 +25,15 @@ public:
     virtual void operMenu();
 
     //教练菜单
-    void CoachMenu(Identity * &coach)
+    void CoachMenu(Identity * &coach);
 
-    //查看所有预约
+    //显示所有预约
     void showAllorder();
 
     //审核预约
     void validOrder();
 
-
     int m_EmpId;    //教练编号
+
 
 };
