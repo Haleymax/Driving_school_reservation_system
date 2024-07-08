@@ -67,5 +67,14 @@ void Coach::showAllorder(){
 
 //审核预约
 void Coach::validOrder(){
+    OrderFile of;
+    if (of.m_Size == 0){
+        cout << "无预约记录" << endl;
+        system("pause");
+        system("cls");
+        return;
+    }
+
+    cout << "待审核的预约记录如下：" << endl;
 
 }
