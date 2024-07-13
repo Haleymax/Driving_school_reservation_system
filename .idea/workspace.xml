@@ -18,10 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serve/coach.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/serve/coach.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="ba600c0e-579e-4471-8b70-616811521ef3" name="Changes" comment="配置文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,6 +132,7 @@
       <workItem from="1720192793512" duration="1404000" />
       <workItem from="1720257378186" duration="7387000" />
       <workItem from="1720445073978" duration="1625000" />
+      <workItem from="1720526318113" duration="5000" />
     </task>
     <task id="LOCAL-00047" summary="配置文件">
       <option name="closed" value="true" />
